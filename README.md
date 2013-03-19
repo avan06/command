@@ -21,8 +21,7 @@ Here is a Resolver declaration code
   public static final int SCROLL_LIST_FOR_DISTANCE_IN_ANY_MILLIS = 10;
   
   @Resolver(id = SCROLL_LIST_FOR_DISTANCE_IN_ANY_MILLIS)
-  public static void SCROLL_LIST_FOR_DISTANCE_IN_ANY_MILLIS(ListView v, int
-distance, int duration) {
+  public static void SCROLL_LIST_FOR_DISTANCE_IN_ANY_MILLIS(ListView v, int distance, int duration) {
     v.smoothScrollBy(distance, duration);
   }
 
